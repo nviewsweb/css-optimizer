@@ -16,6 +16,7 @@ A **lightweight Node.js tool** to **optimize, sort, and merge CSS files** by:
 ✔ **Handle & retain `@media` queries and nested rules**  
 ✔ **Minimize & optimize CSS files** for production  
 ✔ **Works as a CLI tool or JavaScript module**  
+✔ **Can be used directly from GitHub without installation**  
 
 ---
 
@@ -33,6 +34,14 @@ npm install
 
 ```sh
 npm install -g github:nviewsweb/css-optimizer
+```
+
+### **3️⃣ Use Directly from GitHub (Without Installing)**
+
+You can use the repository directly in your project without downloading it by referencing the GitHub file in your `require` statement:
+
+```javascript
+const optimizeCSS = require('https://raw.githubusercontent.com/nviewsweb/css-optimizer/main/index.js');
 ```
 
 ---
