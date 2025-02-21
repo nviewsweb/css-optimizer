@@ -99,6 +99,8 @@ node css-optimizer src/css/styles-toptimize.css
 
 ```javascript
 const optimizeCSS = require('css-optimizer');
+or
+const optimizeCSS = require('https://raw.githubusercontent.com/nviewsweb/css-optimizer/main/index.js');
 
 const inputFile = "assets/css/style.css";
 const outputFile = "assets/css/style-optimized.css";
