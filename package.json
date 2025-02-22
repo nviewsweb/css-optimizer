@@ -1,0 +1,19 @@
+{
+  "name": "css-optimizer",
+  "version": "1.0.0",
+  "description": "A CLI tool to sort, merge, and optimize CSS files.",
+  "bin": {
+    "css-optimize": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nviewsweb/css-optimizer.git"
+  },
+  "keywords": ["css", "optimization", "sorting", "merging"],
+  "author": "NviewsWeb",
+  "contributors": [
+    { "name": "Prabakaran Shankar", "url": "https://github.com/prabashri" }
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}
