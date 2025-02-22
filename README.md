@@ -35,6 +35,16 @@ npm install
 ```sh
 npm install -g github:nviewsweb/css-optimizer
 ```
+### ** Install as a development Package**
+```sh
+npm install --save-dev github:nviewsweb/css-optimizer
+```
+to run this
+```sh
+npx css-optimizer src/style/css.css
+or
+npx css-optimizer src/style/css.scss
+```
 
 ### **3️⃣ Use Directly from GitHub (Without Installing)**
 
