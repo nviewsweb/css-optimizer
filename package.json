@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A CLI tool to sort, merge, and optimize CSS files.",
   "bin": {
-    "css-optimize": "./index.js"
+    "css-optimizer": "./index.js"
   },
   "repository": {
     "type": "git",
